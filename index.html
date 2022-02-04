@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Asadbek Rasulov">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>WebP</title>
+</head>
+<body>
+  <picture>
+    <!-- WebP -->
+    <source type="image/webp"
+    media="(max-width:426px)"
+    srcset="./images/coffeemaker-mobile.webp 1x, ./images/coffeemaker-mobile@2x.webp 2x">
+    <source type="image/webp"
+    media="(max-width:769px)"
+    srcset="./images/coffeemaker-tablet.webp 1x, ./images/coffeemaker-tablet@2x.webp 2x">
+    <source type="image/webp"
+    srcset="./images/coffeemaker-desktop.webp 1x, ./images/coffeemaker-desktop@2x.webp 2x">
+    <!-- Jpeg default -->
+    <source type="image/webp"
+    media="(max-width:426px)"
+    srcset="./images/coffeemaker-mobile.jpg 1x, ./images/coffeemaker-mobile@2x.jpg 2x">
+    <source type="image/webp"
+    media="(max-width:769px)"
+    srcset="./images/coffeemaker-tablet.jpg 1x, ./images/coffeemaker-tablet@2x.jpg 2x">
+    <source type="image/webp"
+    srcset="./images/coffeemaker-desktop.jpg 1x, ./images/coffeemaker-desktop@2x.jpg 2x">
+    <img src="./images/coffeemaker-desktop.jpg" alt="coffeemaker is making a coffee"
+    width="445"
+    height="520"
+    srcset="./images/coffeemaker-desktop.jpg 1x, ./images/coffeemaker-desktop@2x.jpg 2x">
+  </picture>
+  <picture>
+    <!-- WebP -->
+    <source type="image/webp"
+    media="(max-width:426px)"
+    srcset="./images/cappuchinocoffee-mobile.webp 1x, ./images/cappuchinocoffee-mobile@2x.webp 2x">
+    <source type="image/webp"
+    media="(max-width:769px)"
+    srcset="./images/cappuchinocoffee-tablet.webp 1x, ./images/cappuchinocoffee-tablet@2x.webp 2x">
+    <source type="image/webp"
+    srcset="./images/cappuchinocoffee-desktop.webp 1x, ./images/cappuchinocoffee-desktop@2x.webp 2x">
+    <!-- Jpg default -->
+    <source type="image/webp"
+    media="(max-width:426px)"
+    srcset="./images/cappuchinocoffee-mobile.jpg 1x, ./images/cappuchinocoffee-mobile@2x.jpg 2x">
+    <source type="image/webp"
+    media="(max-width:769px)"
+    srcset="./images/cappuchinocoffee-tablet.jpg 1x, ./images/cappuchinocoffee-tablet@2x.jpg 2x">
+    <source type="image/webp"
+    srcset="./images/cappuchinocoffee-desktop.jpg 1x, ./images/cappuchinocoffee-desktop@2x.jpg 2x">
+    <img src="./images/cappuchinocoffee-desktop.jpg" alt="a cup of milky coffee"
+    width="445"
+    height="474"
+    srcset="./images/cappuchinocoffee-desktop.jpg 1x, ./images/cappuchinocoffee-desktop.jpg">
+  </picture>
+</body>
+</html>
